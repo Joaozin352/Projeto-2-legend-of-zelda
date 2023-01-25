@@ -18,7 +18,7 @@ const modal= document.querySelector(".modal")
 
 botaoTrailer.addEventListener("click", () => {
     modal.classList.add("aberto");
-    video.setAttribute("src", "/src/videos/Sequel to The Legend of Zelda_ Breath of the Wild - E3 2021 Teaser - Nintendo Direct.mp4")
+    video.setAttribute("src", "src/videos/Sequel to The Legend of Zelda_ Breath of the Wild - E3 2021 Teaser - Nintendo Direct.mp4")
 })
 
 const fechar_modal = document.querySelector(".fechar_modal")
