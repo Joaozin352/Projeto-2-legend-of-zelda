@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    
+    <link rel="shortcut icon" href="./src/imagens/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+    
+    <title>Legends of Zelda</title>
+  </head>
+  <body>
+    <div class="fundo_video">
+      <video class="video" autoplay muted loop>
+        <source
+          src="/src/videos/video-link.mp4"
+          type="video/mp4"
+          alt="video do mario"
+        />
+      </video>
+    </div>
+    <header class="cabecalho">
+      <a>
+        <img
+          class="logo"
+          src="./src/imagens/logo.png"
+          alt="logo chapéu mario"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <tr class="menu_nav">
+          <li><a href="#">home</a></li>
+          <li><a href="#">detalhes</a></li>
+        </tr>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="imagem_titulo"
+          src="/src/imagens/titulo.png"
+          alt="titulo do filme"
+        />
+        <p class="texto">
+          Viaje pelos vastos campos, florestas e montanhas enquanto descobre o que aconteceu com o reino de Hyrule nesta deslumbrante aventura a céu aberto. Leve o seu console para qualquer lugar e viva aventuras na pele de Link da maneira que quiser.
+        </p>
+        <button class="botao"">Veja o trailer</button>
+        
+        
+      </div>
+      <div class="personagens">
+        <img class="zelda" src="src/imagens/zelda.png" alt="">
+        <img class="link" src="/src/imagens/link.png" />
+      </div>
+      <div class="modal">
+        <div class="conteudo_modal">
+          <span class="fechar_modal">x</span>
+          <iframe id="video" width="400" height="280" src="src/videos/Sequel to The Legend of Zelda_ Breath of the Wild - E3 2021 Teaser - Nintendo Direct.mp4"
+          title="trailer oficial" frameborder="1"
+          allow="accelerometer; 
+          autoplay;clipwriter;     encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          ></iframe>
+          
+        </div>
+      </div>
+    </div>
+    </main>
+    <Script src="/src/javascript/index.js"></Script>    
+  </body>
+  
+</html>
