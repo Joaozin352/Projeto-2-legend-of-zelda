@@ -52,8 +52,7 @@
             height: 169px;
         }
         .link{
-            height: auto;
-            right: 100%;
+            display: none;
         }
     }
     @media (max-width: 376px) {
