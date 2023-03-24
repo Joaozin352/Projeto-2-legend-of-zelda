@@ -53,9 +53,11 @@
         }
         .link{
             display: none;
+            visibility: hidden;
         }
         .zelda {
             display: none;
+            visibility: hidden;
     }
     @media (max-width: 376px) {
         .modal #video {
