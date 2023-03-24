@@ -7,7 +7,7 @@
     }    
 
     .fundo_video {
-        display: none;
+        display: block;
     }
     .container {
         height: auto;
@@ -54,6 +54,8 @@
         .link{
             display: none;
         }
+        .zelda {
+            display: none;
     }
     @media (max-width: 376px) {
         .modal #video {
