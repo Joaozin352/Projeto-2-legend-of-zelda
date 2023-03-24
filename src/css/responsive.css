@@ -1,13 +1,18 @@
-@media (max-width: 1200px){
-    body {
-        background-color: firebrick;
-        }
+
+       @media(max-width: 1200px) {
     .logo_criador{
         left: 20%;
-    }    
+    } 
+    .link{
+        display: none;
+    }   
+    .zelda {
+        display: none;
+    }
 
     .fundo_video {
         display: block;
+        height: 100vh;
     }
     .container {
         height: auto;
@@ -65,3 +70,4 @@
             height: 140px;
         }
     }
+}
